@@ -10,7 +10,7 @@ The exercise was executed on Google Cloud Platform; therefore the following intr
 Download the data and upload the file **historical_stock_prices.csv** into a GCS Bucket.
 
 ### BigQuery
-Create a table with the following schema
+Create a table with the following schema to write the data once we calculate the moving average.
 ```
 {
     "mode": "NULLABLE",
