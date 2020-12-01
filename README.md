@@ -13,25 +13,25 @@ Download the data and upload the file **historical_stock_prices.csv** into a GCS
 Create a table with the following schema
 ```
 {
-        "mode": "NULLABLE",
-        "name": "ticker",
-        "type": "STRING"
-      },
-      {
-        "mode": "NULLABLE",
-        "name": "close",
-        "type": "FLOAT"
-      },
-      {
-        "mode": "NULLABLE",
-        "name": "date",
-        "type": "DATE"
-      },
-      {
-        "mode": "NULLABLE",
-        "name": "moving_average",
-        "type": "FLOAT"
-      }
+    "mode": "NULLABLE",
+    "name": "ticker",
+    "type": "STRING"
+    },
+    {
+    "mode": "NULLABLE",
+    "name": "close",
+    "type": "FLOAT"
+    },
+    {
+    "mode": "NULLABLE",
+    "name": "date",
+    "type": "DATE"
+    },
+    {
+    "mode": "NULLABLE",
+    "name": "moving_average",
+    "type": "FLOAT"
+}
 ```
 And set a **monthly** partition with the field **date**
 
